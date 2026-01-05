@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tool.ip.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+     <div class="big">
+        <div class="main">
+
+         <div class="logo">
+                <img src="srlogo.png" alt="Logo">
+                <div class="sidebar"><i class="fa-solid fa-table-columns"></i></div>
+
+                <div class="newchat"> <i class="fa-solid fa-plus"></i>
+                <a href="http://127.0.0.1:5500/frontend/new.chat.html"><P>New Chat</P></a></div>
+
+            
+
+                <div class="tool"><i class="fa-solid fa-wrench"></i>
+                <a href="http://127.0.0.1:5500/frontend/tools.html"><p>Tools</p></a></div>
+
+                <div class="scn"><i class="fa-brands fa-nfc-symbol"></i>
+                <p>Scanner</p></div>
+
+                <div class="news"><i class="fa-solid fa-newspaper"></i>
+                <p>Cyber News</p></div>
+
+                <div class="pinchat"><i class="fa-solid fa-paperclip"></i>
+                <p>Pinned Chat</p></div>
+
+                <div class="pintool"><i class="fa-regular fa-star"></i>
+                <p>Pinned Tools</p></div>
+            
+                <div class="history"><i class="fa-solid fa-list"></i>
+                <p>History</p></div>
+
+                <div class="set"><i class="fa-solid fa-gear"></i><p>Settings</p></div>
+          </div>
+         
+        </div>
+       
+       <div class="dis">
+           <div class="header">
+           <div class="pro"><i class="fa-solid fa-crown"></i><p>Upgrade</p></div>
+           <div class="profile"><i class="fa-regular fa-circle-user"></i><p>Profile</p></div>
+        </div>
+    <div class="container">
+    <h1>🌍 IP Intelligence Console</h1>
+    <p style="text-align:center;">Analyze location, network & threat level</p>
+
+    <div class="lookup-box">
+        <input type="text" id="ipInput" placeholder="Enter IP address (e.g. 8.8.8.8)">
+        <button onclick="lookupIP()">Analyze</button>
+    </div>
+
+    <div class="intel-panel" id="intelPanel">
+        <div class="row"><span>📍 Location</span><span id="location"></span></div>
+        <div class="row"><span>🌐 ISP</span><span id="isp"></span></div>
+        <div class="row"><span>🏷 IP Type</span><span id="type"></span></div>
+        <div class="row"><span>🧠 Threat Level</span><span id="risk" class="risk"></span></div>
+
+        <div class="threat-meter">
+            <div class="threat-fill" id="threatFill"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

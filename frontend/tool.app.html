@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1>📱 App Risk Profiler</h1>
+    <p style="text-align:center;">Analyze mobile apps for privacy & security threats</p>
+
+    <div class="input-box">
+        <input type="text" id="appInput" placeholder="Enter App Name or Package ID">
+        <button onclick="checkApp()">Analyze App</button>
+    </div>
+
+    <div class="report" id="report">
+        <div class="row"><span>📦 App Name</span><span id="appName"></span></div>
+        <div class="row"><span>🧠 Category</span><span id="category"></span></div>
+        <div class="row"><span>🔐 Risk Level</span><span id="risk" class="risk"></span></div>
+
+        <h3 style="margin-top:25px;color:#38bdf8;">⚠ Permission Analysis</h3>
+        <div class="permissions" id="permissions"></div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+

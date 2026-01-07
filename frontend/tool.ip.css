@@ -1,0 +1,101 @@
+
+    body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top, #020617, #000);
+        color: #e5e7eb;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 20px;
+        
+    }
+    
+
+    h1 {
+        text-align: center;
+        color: #38bdf8;
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+    p {
+        text-align: center;
+        color: #94a3b8;
+        font-size: 18px;
+    }
+    .lookup-box {
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    input {
+        flex: 1;
+        padding: 14px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid #334155;
+        background: #020617;
+        color: #e5e7eb;
+    }
+
+    button {
+        padding: 14px 22px;
+        background: #38bdf8;
+        color: #020617;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #0ea5e9;
+    }
+
+    .intel-panel {
+        margin-top: 40px;
+        display: none;
+        border: 1px solid #1e293b;
+        border-radius: 15px;
+        padding: 20px;
+        background: rgba(2,6,23,0.8);
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #1e293b;
+        font-size: 15px;
+    }
+
+    .row:last-child {
+        border-bottom: none;
+    }
+
+    .risk {
+        font-weight: bold;
+    }
+
+    .low { color: #22c55e; }
+    .medium { color: #facc15; }
+    .high { color: #ef4444; }
+
+    .threat-meter {
+        margin-top: 20px;
+        height: 12px;
+        background: #020617;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid #1e293b;
+    }
+
+    .threat-fill {
+        height: 100%;
+        width: 0%;
+        transition: width 1s;
+    }
+

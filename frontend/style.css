@@ -140,36 +140,11 @@
     color: #FFFFF0;
      font-size: 14px;
 }
-.main .scn{
-  position: absolute;
-  top: 170px;  
-  left: 10px;    
-  color: #FFFFF0;
-  cursor: pointer;
- display: flex;
- background-color:#000F1D;
- width: 100px;
- height: 20px;
- background-color:#000F1D;
- align-items: center;
- justify-content: center;
- border-radius: 30px;
-   
-}
-.scn:hover{
-    background-color: #2F2C2E ;
-}
-.scn p{
-    margin-left: 10px;
-    font-size: 14px;
-    font-weight: 500;
-  
 
-}
 
 .main .news{
   position: absolute;
-  top: 310px;  
+  top: 170px;  
   
   color: #FFFFF0;
   cursor: pointer;
@@ -193,60 +168,11 @@
 
 }
 
-.main .pinchat{
-  position: absolute;
-  top: 205px;  
-  left: 10px;    
-  color: #FFFFF0;
-  cursor: pointer;
- display: flex;
- align-items: center;
- width: 130px;
- height:20px;
- background-color:#000F1D;
- align-items: center;
- justify-content: center;
- border-radius: 30px;
-   
-}
-.pinchat:hover{
-    background-color: #2F2C2E ;
-}
-.pinchat p{
-    margin-left: 10px;
-    font-size: 14px;
-    font-weight: 500;
-   
-}
-.main .pintool{
-  position: absolute;
-  top: 240px;  
-  left: 10px;    
-  color: #FFFFF0;
-  cursor: pointer;
- display: flex;
- justify-content: center;
- width: 130px;
- height:20px;
- background-color:#000F1D;
- align-items: center;
- justify-content: center;
- border-radius: 30px;
-   
-}
-.pintool:hover{
-    background-color: #2F2C2E ;
-}
-.pintool p{
-    margin-left: 10px;
-    font-size: 14px;
-    font-weight: 500;
-   
 
-}
+
 .main .history{
   position: absolute;
-  top: 275px;  
+  top: 205px;  
   left: 10px;
   color: #FFFFF0;
   cursor: pointer;

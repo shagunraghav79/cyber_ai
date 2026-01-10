@@ -1,0 +1,15 @@
+
+.name p{
+font-size: 36px;
+color: antiquewhite;
+font-style: initial;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.name{
+    
+    background-color: rgb(55, 49, 82);
+}

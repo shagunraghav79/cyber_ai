@@ -48,32 +48,7 @@
     background-color: #2F2C2E ;}
 
 
-.main .set{
-  position: absolute;
-  bottom: 20px;  
-  left: 10px;    
-  color: #FFFFF0;
-  cursor: pointer;
-  display: flex;
- height: 20px;
- width: 110px;
- background-color:#000F1D;
- align-items: center;
- justify-content: center;
- border-radius: 30px;
 
-  
-   
-}
-.set:hover{
-    background-color: #2F2C2E ;
-}
- 
-.set p{
-    margin-left: 10px;
-    font-size: 14px;
-    font-weight: 500;
-}
 .main .newchat{
   position: absolute;
   top: 100px;  
@@ -202,6 +177,59 @@
    
 
 }
+.main .set{
+  position: absolute;
+  bottom: 20px;  
+  left: 10px;    
+  color: #FFFFF0;
+  cursor: pointer;
+  display: flex;
+ height: 20px;
+ width: 110px;
+ background-color:#000F1D;
+ align-items: center;
+ justify-content: center;
+ border-radius: 30px;
+
+  
+   
+}
+.set:hover{
+    background-color: #2F2C2E ;
+}
+ 
+.set p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dropup {
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    width: 150px;
+    height:150px ;
+    background: rgb(217, 214, 214);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: none;
+     color:black;
+}
+.dropup ul {
+    list-style: none;
+}
+
+.dropup ul li {
+   
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 14px;
+     color:black;
+}
+
+.dropup ul li:hover {
+    background: gray;
+}
 
 
 
@@ -274,6 +302,62 @@
     font-size: 12px;
     font-weight: 500;
 }
+.dropdown {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 260px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: none;
+}
+
+/* USER INFO */
+.user-info {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.user-info img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.user-info h4 {
+    font-size: 14px;
+     color:black;
+
+}
+
+.user-info p {
+    font-size: 12px;
+    color:black;
+}
+
+/* MENU */
+.dropdown ul {
+    list-style: none;
+}
+
+.dropdown ul li {
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 14px;
+     color:black;
+}
+
+.dropdown ul li:hover {
+    background: #f1f1f1;
+}
+
+.logout {
+    color: red;
+}
+
 
 
 .greeting-box {

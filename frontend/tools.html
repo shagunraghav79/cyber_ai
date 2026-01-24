@@ -36,7 +36,17 @@
             <div class="history"><i class="fa-solid fa-list"></i>
             <p>History</p></div>
 
-            <div class="set"><i class="fa-solid fa-gear"></i><p>Settings</p></div>
+             <div class="set" id="setbtn"><i class="fa-solid fa-gear"></i><p>Settings</p>
+              <div class="dropup" id="dropupmenu">
+                <ul>
+                    <li>🌗 Theme</li>
+                    
+                    <li>🔒 Privacy</li>
+                    <li>💬 Language</li>
+                </ul>
+              </div>
+            
+            </div>
           </div>
          
         </div>
@@ -46,7 +56,26 @@
                  <div class="dis">
            <div class="header">
            <div class="pro"><i class="fa-solid fa-crown"></i><p>Upgrade</p></div>
-           <div class="profile"><i class="fa-regular fa-circle-user"></i><p>Profile</p></div>
+            <div class="profile" id="profileBtn"><i class="fa-regular fa-circle-user"></i><p>Profile</p>
+
+            <div class="dropdown" id="dropdownMenu">
+            <div class="user-info">
+                <img src="user.png">
+                <div>
+                    <h4>Shagun Raghav</h4>
+                    <p>sha***@gmail.com</p>
+                </div>
+            </div>
+
+            <ul>
+                <li>🏠 Home</li>
+               
+                <li>❓ Get Help</li>
+                <li class="logout">🚪 Sign Out</li>
+            </ul>
+        </div>
+
+          </div>
 
              <div class="tools-dashboard">
 
@@ -95,7 +124,7 @@
                 </div>
 
         </div>
-          
+        <script src="scriptprofile.js"></script>   
            
 </body>
 </html>
